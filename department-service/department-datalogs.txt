@@ -1,0 +1,69 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-25T17:24:18.340+05:30 17:24:18.340 [main]  INFO [c.e.DepartmentServiceApplication] [] []  - Starting DepartmentServiceApplication using Java 17.0.7 with PID 21484 (C:\Users\AyushSinha\OneDrive - Opcito Technologies Private Limited\Desktop\Java POC\Distributed Tracing & Logging\department-service\department-service\build\classes\java\main started by AyushSinha in C:\Users\AyushSinha\OneDrive - Opcito Technologies Private Limited\Desktop\Java POC\Distributed Tracing & Logging\department-service\department-service)
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] c.example.DepartmentServiceApplication   : Starting DepartmentServiceApplication using Java 17.0.7 with PID 21484 (C:\Users\AyushSinha\OneDrive - Opcito Technologies Private Limited\Desktop\Java POC\Distributed Tracing & Logging\department-service\department-service\build\classes\java\main started by AyushSinha in C:\Users\AyushSinha\OneDrive - Opcito Technologies Private Limited\Desktop\Java POC\Distributed Tracing & Logging\department-service\department-service)
+2024-01-25T17:24:18.350+05:30 17:24:18.350 [main]  INFO [c.e.DepartmentServiceApplication] [] []  - No active profile set, falling back to 1 default profile: "default"
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] c.example.DepartmentServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-01-25T17:24:20.994+05:30 17:24:20.994 [main]  INFO [o.s.d.r.c.RepositoryConfigurationDelegate] [] []  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-25T17:24:21.236+05:30 17:24:21.236 [main]  INFO [o.s.d.r.c.RepositoryConfigurationDelegate] [] []  - Finished Spring Data repository scanning in 212 ms. Found 1 JPA repository interface.
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 212 ms. Found 1 JPA repository interface.
+2024-01-25T17:24:23.376+05:30 17:24:23.376 [main]  INFO [o.s.b.w.e.tomcat.TomcatWebServer] [] []  - Tomcat initialized with port 8080 (http)
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-25T17:24:23.407+05:30 17:24:23.407 [main]  INFO [o.a.catalina.core.StandardService] [] []  - Starting service [Tomcat]
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-25T17:24:23.408+05:30 17:24:23.408 [main]  INFO [o.a.catalina.core.StandardEngine] [] []  - Starting Servlet engine: [Apache Tomcat/10.1.17]
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-25T17:24:23.612+05:30 17:24:23.612 [main]  INFO [o.a.c.c.C.[Tomcat].[localhost].[/]] [] []  - Initializing Spring embedded WebApplicationContext
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-25T17:24:23.613+05:30 17:24:23.613 [main]  INFO [o.s.b.w.s.c.ServletWebServerApplicationContext] [] []  - Root WebApplicationContext: initialization completed in 5144 ms
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5144 ms
+2024-01-25T17:24:25.223+05:30 17:24:25.223 [main]  INFO [com.zaxxer.hikari.HikariDataSource] [] []  - HikariPool-1 - Starting...
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-25T17:24:26.048+05:30 17:24:26.048 [main]  INFO [com.zaxxer.hikari.pool.HikariPool] [] []  - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78b9155e
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78b9155e
+2024-01-25T17:24:26.056+05:30 17:24:26.056 [main]  INFO [com.zaxxer.hikari.HikariDataSource] [] []  - HikariPool-1 - Start completed.
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-25T17:24:26.224+05:30 17:24:26.224 [main]  INFO [o.h.jpa.internal.util.LogHelper] [] []  - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-25T17:24:26.453+05:30 17:24:26.453 [main]  INFO [org.hibernate.Version] [] []  - HHH000412: Hibernate ORM core version 6.4.1.Final
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-25T17:24:26.589+05:30 17:24:26.589 [main]  INFO [o.h.c.i.RegionFactoryInitiator] [] []  - HHH000026: Second-level cache disabled
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-25T17:24:27.482+05:30 17:24:27.482 [main]  INFO [o.s.o.j.p.SpringPersistenceUnitInfo] [] []  - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-25T17:24:27.710+05:30 17:24:27.710 [main]  WARN [org.hibernate.orm.deprecation] [] []  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-25T17:24:30.491+05:30 17:24:30.491 [main]  INFO [o.h.e.t.j.p.i.JtaPlatformInitiator] [] []  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-25T17:24:30.501+05:30 17:24:30.501 [main]  INFO [o.s.o.j.LocalContainerEntityManagerFactoryBean] [] []  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-25T17:24:31.663+05:30 17:24:31.663 [main]  WARN [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] [] []  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-25T17:24:35.053+05:30 17:24:35.053 [main]  INFO [o.s.b.a.e.web.EndpointLinksResolver] [] []  - Exposing 0 endpoint(s) beneath base path '/actuator'
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+2024-01-25T17:24:35.316+05:30 17:24:35.316 [main]  INFO [o.s.b.w.e.tomcat.TomcatWebServer] [] []  - Tomcat started on port 8080 (http) with context path ''
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-25T17:24:35.356+05:30 17:24:35.356 [main]  INFO [c.e.DepartmentServiceApplication] [] []  - Started DepartmentServiceApplication in 18.138 seconds (process running for 19.893)
+ 21484 --- [DEPARTMENT-SERVICE] [           main] [                                                 ] c.example.DepartmentServiceApplication   : Started DepartmentServiceApplication in 18.138 seconds (process running for 19.893)
+2024-01-25T17:24:36.103+05:30 17:24:36.103 [RMI TCP Connection(1)-172.28.0.1]  INFO [o.a.c.c.C.[Tomcat].[localhost].[/]] [] []  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 21484 --- [DEPARTMENT-SERVICE] [n(1)-172.28.0.1] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-25T17:24:36.104+05:30 17:24:36.104 [RMI TCP Connection(1)-172.28.0.1]  INFO [o.s.web.servlet.DispatcherServlet] [] []  - Initializing Servlet 'dispatcherServlet'
+ 21484 --- [DEPARTMENT-SERVICE] [n(1)-172.28.0.1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-25T17:24:36.108+05:30 17:24:36.108 [RMI TCP Connection(1)-172.28.0.1]  INFO [o.s.web.servlet.DispatcherServlet] [] []  - Completed initialization in 4 ms
+ 21484 --- [DEPARTMENT-SERVICE] [n(1)-172.28.0.1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-01-25T17:32:35.392+05:30 17:32:35.392 [http-nio-8080-exec-1]  INFO [c.e.controller.DepartmentController] [SPAN-ID] [3c0d91e165e03c22]  - Inside getDepartmentById()
+ 21484 --- [DEPARTMENT-SERVICE] [nio-8080-exec-1] [65b24dda7c8c55c73c0d91e165e03c22-a98725ca5284edb6] c.e.controller.DepartmentController      : Inside getDepartmentById()
+2024-01-25T17:33:04.909+05:30 17:33:04.909 [SpringApplicationShutdownHook]  INFO [o.s.o.j.LocalContainerEntityManagerFactoryBean] [] []  - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 21484 --- [DEPARTMENT-SERVICE] [ionShutdownHook] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-25T17:33:04.914+05:30 17:33:04.914 [SpringApplicationShutdownHook]  INFO [com.zaxxer.hikari.HikariDataSource] [] []  - HikariPool-1 - Shutdown initiated...
+ 21484 --- [DEPARTMENT-SERVICE] [ionShutdownHook] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-25T17:33:04.926+05:30 17:33:04.926 [SpringApplicationShutdownHook]  INFO [com.zaxxer.hikari.HikariDataSource] [] []  - HikariPool-1 - Shutdown completed.
+ 21484 --- [DEPARTMENT-SERVICE] [ionShutdownHook] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
